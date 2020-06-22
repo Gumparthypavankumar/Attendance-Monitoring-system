@@ -18,10 +18,10 @@
                 <li><a href="/lsapp/public/posts">students</a></li>
                 <li><a href="{{asset('/delete')}}">Delete</a></li>
             </ul>
-            <ul class="nav navbar-nav navbar-right">
+            <!--<ul class="nav navbar-nav navbar-right">
                 <li><a href="/lsapp/public/dashboard/signup"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
                 <li><a href="/lsapp/public/dashboard/login"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
-            </ul>
+            </ul>-->
         </div>
     </nav>
     @yield('content');
